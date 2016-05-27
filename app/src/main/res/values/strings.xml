@@ -9,5 +9,7 @@
     <string name="texto_boton_cierto">¡Cierto!</string>
     <string name="texto_boton_falso">¡Falso!</string>
     <string name="texto_boton_siguiente">Siguiente</string>
+    <string name="texto_correcto">¡Correcto!</string>
+    <string name="texto_Incorrecto">¡InCorrecto!</string>
 
 </resources>

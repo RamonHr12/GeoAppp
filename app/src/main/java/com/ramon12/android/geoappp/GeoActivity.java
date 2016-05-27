@@ -54,9 +54,9 @@ public class GeoActivity extends AppCompatActivity {
     private void verificarRespuesta(boolean botonOprimido){
         boolean respuestaEsVerdadera = mBancoDePregunta[mPreguntaActual].ismResPuestaVerdadera();
         if(botonOprimido == respuestaEsVerdadera){
-            Toast.makeText(GeoActivity.this,R.string.texto_boton_cierto,Toast.LENGTH_SHORT).show();
+            Toast.makeText(GeoActivity.this,R.string.texto_correcto,Toast.LENGTH_SHORT).show();
         }else{
-            Toast.makeText(GeoActivity.this,R.string.texto_boton_falso,Toast.LENGTH_SHORT).show();
+            Toast.makeText(GeoActivity.this,R.string.texto_Incorrecto,Toast.LENGTH_SHORT).show();
         }
     }
 
